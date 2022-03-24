@@ -1,0 +1,53 @@
+@font-face {
+	font-family: Poppins;
+	src: url('./assets/fonts/Poppins-Thin.ttf');
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url('./assets/fonts/Poppins-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url('./assets/fonts/Poppins-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url('./assets/fonts/Poppins-SemiBold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url('./assets/fonts/Poppins-Bold.ttf');
+	font-weight: 700;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 1em;
+
+	a {
+		color: unset;
+		text-decoration: none;
+	}
+}
